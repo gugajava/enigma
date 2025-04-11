@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+  color: limegreen;
+  font-family: monospace;
+}
+
+.conteudo {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+  opacity: 0;
+  animation: aparecer 2s ease-in-out 5s forwards;
+}
+
+@keyframes aparecer {
+  to {
+    opacity: 1;
+  }
+}
+
+canvas#matrix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+input#comando {
+  background: black;
+  color: limegreen;
+  border: 1px solid limegreen;
+  font-family: monospace;
+  font-size: 16px;
+  width: 80%;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#terminal {
+  text-align: left;
+  white-space: pre-wrap;
+  margin: 20px auto;
+  max-width: 800px;
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid limegreen;
+  padding: 10px;
+}
