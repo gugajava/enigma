@@ -1,1 +1,1 @@
-# Se você chegou até aqui, parabéns, está antenado, sei que não é do seu feitio investigação, você é um roteirista, mas, eu estava entediado, espero que tenha gostado dessa pequena parte da brincadeira.
+#um projeto que consiste numa aplicação web com um jogo de charada
